@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "noteit",
-    "slug": "snack-a4417de4-5ab7-43d2-992a-e5e4f5956ed5",
+    "name": "class-47",
+    "slug": "snack-f204c77e-0bb9-4d15-844a-414ed1b756e7",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "FINAL WEATHER APP WORKING IN PHONE ALSO"
   }
 }
