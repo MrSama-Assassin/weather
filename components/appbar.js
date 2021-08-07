@@ -5,7 +5,7 @@ export default function Appbar() {
     <Header
       backgroundColor={'#3D6089'}
       centerComponent={{
-        text: 'Weather',
+        text: 'MY WEATHER APP',
         style: { color: '#fff', fontSize: 20 },
       }}
     />

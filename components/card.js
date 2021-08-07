@@ -26,14 +26,14 @@ export default function Card(props) {
   const styles = StyleSheet.create({
     card: {
       display: 'flex',
-      backgroundColor: '#f1d4d4',
+      backgroundColor: '#adfffc',
       justifyContent: 'space-around',
       margin: 20,
       padding: 10,
       borderRadius: 10,
       textAlign: 'center',
-      color: '#646464',
-      shadowColor: '#fff8cd',
+      color: '#000000',
+      shadowColor: '#404040',
       shadowRadius: 20,
     },
     top: {
