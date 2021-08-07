@@ -6,7 +6,7 @@ export default function Search() {
   const [scr, setScr] = useState('');
   const [scrc, setScrc] = useState('');
 
-   function handleChange(val) {
+  function handleChange(val) {
     setScr(val);
   }
   function handleClick() {
@@ -16,17 +16,18 @@ export default function Search() {
 
   const styles = StyleSheet.create({
     textInput: {
-      padding: 20,
+      padding: 10,
       borderWidth: 2,
-      borderColor: '#ffe05d',
+      borderColor: '#000000',
       margin: 20,
+      color: '#19ffd1',
     },
     input: {
       margin: 20,
       position: 'relative',
     },
     button: {
-      margin: 20,
+      margin: 10,
       marginTop: 5,
     },
   });
@@ -36,14 +37,14 @@ export default function Search() {
         <TextInput
           placeholder="City Name"
           value={scr}
-          onChangeText={(val)=>handleChange(val)}
+          onChangeText={(val) => handleChange(val)}
         />
       </View>
 
       <View style={styles.button}>
-        <Button title="Search" color="#ff9642" onPress={handleClick} />
+        <Button title="Search" color="#19ffd1" onPress={handleClick} />
       </View>
-        <Card title={scrc} />
+      <Card title={scrc} />
     </View>
   );
 }

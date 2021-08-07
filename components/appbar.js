@@ -6,7 +6,7 @@ export default function Appbar() {
       backgroundColor={'#3D6089'}
       centerComponent={{
         text: 'MY WEATHER APP',
-        style: { color: '#fff', fontSize: 20 },
+        style: { color: '#001aff', fontSize: 20, shadowColor:'#001aff' },
       }}
     />
   );

@@ -26,15 +26,15 @@ export default function Card(props) {
   const styles = StyleSheet.create({
     card: {
       display: 'flex',
-      backgroundColor: '#adfffc',
+      backgroundColor: '#8affe9',
       justifyContent: 'space-around',
       margin: 20,
       padding: 10,
-      borderRadius: 10,
+      borderRadius: 5,
       textAlign: 'center',
       color: '#000000',
-      shadowColor: '#404040',
-      shadowRadius: 20,
+      shadowColor: '#8a95ff',
+      shadowRadius: 5,
     },
     top: {
       display: 'flex',
@@ -62,7 +62,7 @@ export default function Card(props) {
   return (
     <View style={styles.card}>
       <View>
-        <Text style={{ fontWeight: 'bold', fontSize: 30,textAlign:'center'}}>{name}</Text>
+        <Text style={{ fontWeight: 'bold', fontSize: 30, textAlign: 'center' }}>{name}</Text>
       </View>
 
       <View style={styles.top}>
@@ -77,14 +77,14 @@ export default function Card(props) {
       </View>
 
       <View>
-        <Text>{weather.main}</Text>
+        <Text style={{ textAlign: 'center' }}>{weather.main}</Text>
         <View style={styles.iconCon}>
-          <Image style={styles.icon} source={{uri:icon}} />
+          <Image style={styles.icon} source={{ uri: icon }} />
         </View>
       </View>
 
       <View>
-        <Text style={{ fontWeight: 'bold', fontSize: 30 }}>
+        <Text style={{ fontWeight: 'bold', fontSize: 30, textAlign: 'center' }}>
           {main.temp}&#8451;
         </Text>
         <View style={styles.bottom}>
